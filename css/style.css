@@ -1,0 +1,82 @@
+/* Custom CSS which overrides Bootstrap elements */
+html {
+    background-color: #0d0208;
+}
+body {
+    font-family: 'Ubuntu', sans-serif !important;
+    background-color:#0d0208;
+}
+h1 {
+    color:#00ff41;
+}
+p {
+    color: #eeeeee;
+}
+.copyright-container > p {
+    color: #cdcdcd;
+}
+.nav-link {
+    color: #eeeeee;
+}
+.nav-link:hover {
+    color:#00ff41;
+    transition: 0.5s;
+}
+.navbar {
+    --bs-navbar-active-color: rgba(0,255,65, 1);
+}
+.navbar-toggler {
+    background-color: transparent;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 255, 65, 100%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler:active {
+    color: #eeeeee;
+}
+.navbar-toggler {
+   color: #00ff41;
+   
+}
+.btn {
+    border: none;
+}
+h3 {
+   color: #eeeeee;
+}
+a:hover {
+    color:#00ff41;
+}
+footer {
+    text-align: center;  
+}
+main {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.accent {
+    color:#00ff41;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button-custom {
+    color: #0d0208;
+    background-color:#00ff41;
+}
+.custom-row {
+    background-color: #00ff41;
+}
+.custom-row p {
+    color: black;
+}
+.custom-row a {
+    text-decoration-style: dotted;
+    color: black;
+}
+.custom-row h3 {
+    color:black
+}
+.custom-row a:hover {
+    color:#eeeeee;
+}

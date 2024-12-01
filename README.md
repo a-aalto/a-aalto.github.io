@@ -1,0 +1,1 @@
+Tämä kokonaisuus on osa WS07 Workshop -tehätävää.
