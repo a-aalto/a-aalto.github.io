@@ -1,1 +1,1 @@
-Tämä kokonaisuus on osa WS07 Workshop -tehätävää.
+Welcome to my (Antti Aalto) website. This website was originally a part of a school assingment.
