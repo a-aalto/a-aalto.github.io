@@ -20,7 +20,7 @@ body {
 }
 @media (min-width:992px) {
     main {
-        width: 768px;
+        width: 992px;
         margin-left: auto;
         margin-right: auto;
     }
