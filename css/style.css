@@ -1,11 +1,13 @@
 /* Custom CSS which overrides Bootstrap elements */
 html {
     background-color: #0d0208;
+    height: 100%;
 }
 
 body {
     font-family: 'Ubuntu', sans-serif !important;
     background-color: #0d0208;
+    height:100%;
 }
 
 h1 {
