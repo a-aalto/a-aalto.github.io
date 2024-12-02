@@ -1,11 +1,13 @@
 /* Custom CSS which overrides Bootstrap elements */
 html {
-    background-color: #0d0208;
+    background-color: black;
 }
 
 body {
     font-family: 'Ubuntu', sans-serif !important;
-    background-color: #0d0208;
+    background-image: linear-gradient(hsl(327, 73%, 7%), hsl(327, 73%, 1%));
+    background-repeat: no-repeat;
+    background-color: black;
 }
 
 h1 {
@@ -87,8 +89,9 @@ p {
 .btn {
     border: none;
 }
+
 .btn:hover {
-    background-color:#4bff78;
+    background-color: #4bff78;
 }
 
 h3 {
@@ -107,6 +110,14 @@ main {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (min-width: 1920px) {
+    main {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .accent {
