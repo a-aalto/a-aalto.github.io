@@ -20,36 +20,44 @@ p {
     color: #cdcdcd;
 }
 
+/*for animated behaviour and only for width "lg" and above*/
+
+@media (min-width: 992px) {
+    .nav-link span::before {
+        content: ' \0024';
+        color: #00ff41;
+        position: absolute;
+        opacity: 0;
+        left: 0px;
+        transition: all 0.1s;
+    }
+
+    .nav-link:hover span {
+        padding-left: 14.2%;
+    }
+
+    .nav-link:hover span:before {
+        opacity: 1;
+
+    }
+
+    .nav-link span {
+
+        display: inline-block;
+        position: relative;
+        transition: 0.1s;
+
+    }
+
+}
+
 .nav-link {
     color: #eeeeee;
     display: inline-block;
     width: 105px;
 }
 
-.nav-link span {
-
-    display: inline-block;
-    position: relative;
-    transition: 0.1s;
-
-}
-
-.nav-link span::before {
-    content: ' \0024';
-    position: absolute;
-    opacity: 0;
-    left: 0px;
-    transition: 0.1s;
-}
-
-.nav-link:hover span {
-    padding-left: 13px;
-}
-
-.nav-link:hover span:before {
-    opacity: 1;
-
-}
+/*animated behavious ends here*/
 
 .nav-link:hover {
     color: #00ff41;
